@@ -1,0 +1,42 @@
+.heading{
+    width: 100%;
+    animation-name: animation1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animation1{
+    0%{
+        background-color: mediumpurple;
+    }
+    25%{
+        background-color: rgb(224, 121, 142);
+    }
+    50%{
+        background-color: cyan;
+    }
+    100%{
+        background-color: lime;
+    }
+}
+
+h1{
+    font-size: 20px;
+}
+
+.note{
+    font-size: 15px;
+}
+
+#status{
+    font-size: 18px;
+}
+
+canvas{
+    margin-top: 40px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px white;
+    border-radius: 10px;
+
+}
